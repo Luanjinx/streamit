@@ -37,22 +37,22 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'YOUR_API_KEY',
-    appId: isIOS ? 'YOUR_IOS_APP_ID' : 'YOUR_ANDROID_APP_ID',
-    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-    storageBucket: 'YOUR_STORAGE_BUCKET',
-    iosBundleId: 'YOUR_IOS_BUNDLE_ID'
+    apiKey: 'AIzaSyCV5VU2YBfV3JCwCoqB9lBGlmQZZxY-alM',
+    appId: '1:548921580556:android:0aabdebb171da62e31a229',
+    messagingSenderId: '548921580556',
+    projectId: 'tvonline-5b627',
+    storageBucket: 'tvonline-5b627.firebasestorage.app',
   );
 
   ///Note : Values available android/app/google-services.json
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'YOUR_API_KEY',
-    appId: isIOS ? 'YOUR_IOS_APP_ID' : 'YOUR_ANDROID_APP_ID',
-    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-    storageBucket: 'YOUR_STORAGE_BUCKET',
-    iosBundleId: 'YOUR_IOS_BUNDLE_ID'
+    apiKey: 'AIzaSyDoX-SDEDgSitqBUy6tKfyulwzTU_U3_Sc',
+    appId: '1:548921580556:ios:569b18f364b022db31a229',
+    messagingSenderId: '548921580556',
+    projectId: 'tvonline-5b627',
+    storageBucket: 'tvonline-5b627.firebasestorage.app',
+    iosBundleId: 'com.iqonic.streamitlaravel',
   );
+
 }
